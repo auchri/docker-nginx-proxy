@@ -1,4 +1,5 @@
 FROM jwilder/nginx-proxy
+MAINTAINER Christoph Auer <auer.chrisi@gmx.net>
 
 RUN { \
       echo 'server_tokens off;'; \
